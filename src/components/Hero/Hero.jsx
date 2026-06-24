@@ -1,12 +1,32 @@
-import React from 'react'
+import "../../styles/Hero.css"
 
-const Hero = () => {
+function Hero() {
   return (
-    <div>
-      <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo libero cum quasi facilis qui molestias quas aliquam dolor quibusdam at expedita deserunt ipsam, id aut ea eum unde vitae atque?
-      </h1>
-    </div>
+    <section className="hero" id="hero">
+      <div className="hero-container">
+
+        <div className="hero-content">
+
+          <span className="hero-badge">Welcome to MyApp</span>
+
+          <h1 className="hero-title">
+            Build something <span>amazing</span> with React
+          </h1>
+
+          <p className="hero-description">
+            A modern, responsive, and attractive landing page
+            built with React JS — fast, clean, and easy to customize.
+          </p>
+
+          <div className="hero-buttons">
+            <button className="btn-primary">Get Started</button>
+            <button className="btn-secondary">Learn More</button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
   )
 }
 

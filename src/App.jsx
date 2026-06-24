@@ -1,5 +1,6 @@
 import { useState } from "react"
 import Header from "./components/Header/Header"
+import Hero from "./components/Hero/Hero"
 import "./styles/global.css"
 
 function App() {
@@ -14,7 +15,9 @@ function App() {
   return (
     <div>
       <Header theme={theme} toggleTheme={toggleTheme} />
+      <Hero/ >
     </div>
+
   )
 }
 
