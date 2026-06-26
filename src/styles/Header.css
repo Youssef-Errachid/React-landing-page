@@ -87,7 +87,7 @@
   transition: 0.3s;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .nav-links {
     position: absolute;
