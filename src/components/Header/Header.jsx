@@ -14,10 +14,10 @@ function Header({ theme, toggleTheme }) {
 
         <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
           <li><Link to="HeroSection" smooth={true} duration={500} href="#" onClick={() => setMenuOpen(false)}>Home</Link></li>
-          <li><a href="#features" onClick={() => setMenuOpen(false)}>Features</a></li>
-          <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>
-          <li><a href="#testimonials" onClick={() => setMenuOpen(false)}>Testimonials</a></li>
-          <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
+          <li><Link to="FeaturesSection" smooth={true} duration={500} href="#" onClick={() => setMenuOpen(false)}>Features</Link></li>
+          <li><Link to="AboutSection" smooth={true} duration={500} href="#about" onClick={() => setMenuOpen(false)}>About</Link></li>
+          <li><Link to="TestimonialsSection" smooth={true} duration={500} href="#testimonials" onClick={() => setMenuOpen(false)}>Testimonials</Link></li>
+          <li><Link to="ContactSection" smooth={true} duration={500} href="#contact" onClick={() => setMenuOpen(false)}>Contact</Link></li>
         </ul>
 
         <div className="nav-actions">
