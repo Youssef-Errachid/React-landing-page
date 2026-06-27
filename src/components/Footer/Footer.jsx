@@ -8,10 +8,10 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
 
-        <div className="footer-logo">MyApp</div>
+        <div className="footer-logo">i Shop</div>
 
         <p className="footer-copyright">
-          © {currentYear} <span>MyApp</span>. All rights reserved.
+          © {currentYear} <span>i Shop</span>. All rights reserved.
         </p>
 
         <div className="footer-socials">

@@ -1,21 +1,24 @@
 import "../../styles/Hero.css"
+import { Element } from 'react-scroll';
+
 
 function Hero() {
   return (
-    <section className="hero" id="hero">
+    <Element name="HeroSection">
+          <section className="hero" id="hero">
       <div className="hero-container">
 
         <div className="hero-content">
 
-          <span className="hero-badge">Welcome to MyApp</span>
+          <span className="hero-badge">Welcome to i Shop</span>
 
           <h1 className="hero-title">
-            Build something <span>amazing</span> with React
+            Shop something <span>amazing</span> with i Shop
           </h1>
 
           <p className="hero-description">
-            A modern, responsive, and attractive landing page
-            built with React JS — fast, clean, and easy to customize.
+            Discover trendy products, amazing deals, and a seamless shopping
+            experience with i Shop  your modern destination for smart online shopping.
           </p>
 
           <div className="hero-buttons">
@@ -27,6 +30,8 @@ function Hero() {
 
       </div>
     </section>
+    </Element>
+
   )
 }
 

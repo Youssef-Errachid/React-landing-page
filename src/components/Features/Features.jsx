@@ -1,4 +1,12 @@
-import { FiZap, FiLayout, FiSmartphone, FiCode, FiShield, FiStar } from "react-icons/fi"
+import {
+  FiZap,
+  FiLayout,
+  FiSmartphone,
+  FiCode,
+  FiShield,
+  FiStar
+} from "react-icons/fi"
+
 import FeatureCard from "./FeatureCard"
 import "../../styles/Features.css"
 
@@ -6,38 +14,44 @@ const featuresData = [
   {
     id: 1,
     icon: <FiZap />,
-    title: "Fast Performance",
-    description: "Optimized for speed with React and Vite — lightning fast load times."
+    title: "Fast Delivery",
+    description:
+      "Get your favorite products delivered quickly and safely to your doorstep."
   },
   {
     id: 2,
     icon: <FiLayout />,
-    title: "Clean Design",
-    description: "Modern and minimal UI that keeps visitors focused on what matters."
+    title: "Modern Shopping Experience",
+    description:
+      "Enjoy a clean, attractive, and user-friendly shopping interface."
   },
   {
     id: 3,
     icon: <FiSmartphone />,
-    title: "Fully Responsive",
-    description: "Looks perfect on any device — mobile, tablet, or desktop."
+    title: "Mobile Friendly",
+    description:
+      "Shop anytime, anywhere from your phone, tablet, or desktop."
   },
   {
     id: 4,
     icon: <FiCode />,
-    title: "Clean Code",
-    description: "Well-structured components, easy to read, maintain, and extend."
+    title: "Easy Navigation",
+    description:
+      "Find products easily with smooth browsing and organized categories."
   },
   {
     id: 5,
     icon: <FiShield />,
-    title: "Reliable",
-    description: "Built with best practices to ensure stability and consistency."
+    title: "Secure Payments",
+    description:
+      "Your transactions are protected with safe and reliable payment methods."
   },
   {
     id: 6,
     icon: <FiStar />,
-    title: "Customizable",
-    description: "Easily change colors, content, and layout to match your brand."
+    title: "Best Quality",
+    description:
+      "We provide high-quality products selected to satisfy our customers."
   }
 ]
 
@@ -46,17 +60,19 @@ function Features() {
     <section className="features" id="features">
       <div className="features-container">
 
-        {/* section header */}
         <div className="section-header">
-          <span className="section-badge">✨ Features</span>
-          <h2 className="section-title">Why choose <span>MyApp</span>?</h2>
+          <span className="section-badge">Features</span>
+
+          <h2 className="section-title">
+            Why choose <span>i Shop</span>?
+          </h2>
+
           <p className="section-description">
-            Everything you need to build a modern, attractive,
-            and high-performing landing page with React.
+            Discover the benefits of shopping with i Shop — quality products,
+            secure payments, fast delivery, and a smooth shopping experience.
           </p>
         </div>
 
-        {/* cards grid */}
         <div className="features-grid">
           {featuresData.map((feature) => (
             <FeatureCard
